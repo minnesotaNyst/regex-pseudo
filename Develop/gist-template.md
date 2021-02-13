@@ -6,6 +6,10 @@ Introductory paragraph (replace this with your text)
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
+```
+/^\S[^\n\r][a-zA-Z0-9\.]+@+\S[^\n\r][a-zA-Z]+[.]+[a-z]/
+```
+
 ## Table of Contents
 
 - [Anchors](#anchors)
