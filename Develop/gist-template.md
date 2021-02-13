@@ -6,8 +6,8 @@ Introductory paragraph (replace this with your text)
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
-```
-/^\S[^\n\r][a-zA-Z0-9\.]+@+\S[^\n\r][a-zA-Z]+[.]+[a-z]/
+```js
+/^\S[^\n\r][a-zA-Z0-9\.]+@+\S[^\n\r][a-zA-Z]+[.]+[a-z]+/
 ```
 
 ## Table of Contents
@@ -28,11 +28,34 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+```js
+^
+```
+
+The only anchor used in this Regex is the carrot symbol...
+
 ### Quantifiers
+
+```js
++
+```
+
+The only quantifier used in this Regex is the plus symbol...
 
 ### OR Operator
 
+No OR operator was used in the creation of this Regex...
+
 ### Character Classes
+
+```js
+[^\n\r]
+[a-zA-Z0-9\.]
+[^\n\r]
+[a-zA-Z]
+[.]
+[a-z]
+```
 
 ### Flags
 
@@ -43,6 +66,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Greedy and Lazy Match
 
 ### Boundaries
+
+There were no word boundaries used in the creating of this regex.
 
 ### Back-references
 
