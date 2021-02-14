@@ -1,10 +1,14 @@
 # Regex Pseudo
 
-Introductory paragraph (replace this with your text)
+My this week is to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This regex is a homemade version of an email validation tool. While I understand that regex may not be the most ideal way, and certainly not the only, it was something that I enjoyed working on. This could be used in a number of scenarios, but the most applicable for me is through the use of inquier prompts. 
+
+In our cirriculum, there has been a few assignments that have required us to gather input from an end user through inquier prompts. Without understanding what regex was, or how to use it, I now find that this would be very usefull in validating the user input. I
+
+Let us take a look a the regex expression we will be evaluating below:
 
 ```js
 /^\S[^\n\r][a-zA-Z0-9\.]+@+\S[^\n\r][a-zA-Z]+[.]+[a-z]+/;
@@ -24,7 +28,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ^
 ```
 
-The only anchor used in this Regex is the carrot symbol...
+The only anchor used in this Regex is the carrot symbol.
 
 ### Quantifiers
 
