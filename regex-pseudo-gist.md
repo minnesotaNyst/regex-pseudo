@@ -52,10 +52,6 @@ The only anchor used in this Regex is the carrot symbol.
 
 The only quantifier used in this Regex is the plus symbol...
 
-### OR Operator
-
-No OR operator was used in the creation of this Regex...
-
 ### Character Classes
 
 ```js
